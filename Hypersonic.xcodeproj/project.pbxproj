@@ -14,6 +14,8 @@
 		D54A8F632BC3608C00516705 /* HypersonicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F622BC3608C00516705 /* HypersonicTests.swift */; };
 		D54A8F6D2BC3608C00516705 /* HypersonicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F6C2BC3608C00516705 /* HypersonicUITests.swift */; };
 		D54A8F6F2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */; };
+		D5ED03752BC4B53100FED1F0 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED03742BC4B53100FED1F0 /* FinderSync.swift */; };
+		D5ED037A2BC4B53100FED1F0 /* HyperFinderSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,28 @@
 			remoteGlobalIDString = D54A8F4C2BC3608B00516705;
 			remoteInfo = Hypersonic;
 		};
+		D5ED03782BC4B53100FED1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54A8F452BC3608B00516705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5ED03712BC4B53100FED1F0;
+			remoteInfo = HyperFinderSync;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5ED037B2BC4B53100FED1F0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5ED037A2BC4B53100FED1F0 /* HyperFinderSync.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D54A8F4D2BC3608B00516705 /* Hypersonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypersonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +68,10 @@
 		D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypersonicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54A8F6C2BC3608C00516705 /* HypersonicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicUITests.swift; sourceTree = "<group>"; };
 		D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HyperFinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5ED03742BC4B53100FED1F0 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		D5ED03762BC4B53100FED1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5ED03772BC4B53100FED1F0 /* HyperFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperFinderSync.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +96,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5ED036F2BC4B53100FED1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +112,7 @@
 				D54A8F4F2BC3608B00516705 /* Hypersonic */,
 				D54A8F612BC3608C00516705 /* HypersonicTests */,
 				D54A8F6B2BC3608C00516705 /* HypersonicUITests */,
+				D5ED03732BC4B53100FED1F0 /* HyperFinderSync */,
 				D54A8F4E2BC3608B00516705 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +123,7 @@
 				D54A8F4D2BC3608B00516705 /* Hypersonic.app */,
 				D54A8F5E2BC3608C00516705 /* HypersonicTests.xctest */,
 				D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */,
+				D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +157,16 @@
 			path = HypersonicUITests;
 			sourceTree = "<group>";
 		};
+		D5ED03732BC4B53100FED1F0 /* HyperFinderSync */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED03742BC4B53100FED1F0 /* FinderSync.swift */,
+				D5ED03762BC4B53100FED1F0 /* Info.plist */,
+				D5ED03772BC4B53100FED1F0 /* HyperFinderSync.entitlements */,
+			);
+			path = HyperFinderSync;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,10 +177,12 @@
 				D54A8F492BC3608B00516705 /* Sources */,
 				D54A8F4A2BC3608B00516705 /* Frameworks */,
 				D54A8F4B2BC3608B00516705 /* Resources */,
+				D5ED037B2BC4B53100FED1F0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5ED03792BC4B53100FED1F0 /* PBXTargetDependency */,
 			);
 			name = Hypersonic;
 			productName = Hypersonic;
@@ -177,6 +225,23 @@
 			productReference = D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D5ED03712BC4B53100FED1F0 /* HyperFinderSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5ED037E2BC4B53100FED1F0 /* Build configuration list for PBXNativeTarget "HyperFinderSync" */;
+			buildPhases = (
+				D5ED036E2BC4B53100FED1F0 /* Sources */,
+				D5ED036F2BC4B53100FED1F0 /* Frameworks */,
+				D5ED03702BC4B53100FED1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperFinderSync;
+			productName = HyperFinderSync;
+			productReference = D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +263,9 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = D54A8F4C2BC3608B00516705;
 					};
+					D5ED03712BC4B53100FED1F0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 				};
 			};
 			buildConfigurationList = D54A8F482BC3608B00516705 /* Build configuration list for PBXProject "Hypersonic" */;
@@ -216,6 +284,7 @@
 				D54A8F4C2BC3608B00516705 /* Hypersonic */,
 				D54A8F5D2BC3608C00516705 /* HypersonicTests */,
 				D54A8F672BC3608C00516705 /* HypersonicUITests */,
+				D5ED03712BC4B53100FED1F0 /* HyperFinderSync */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +307,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D54A8F662BC3608C00516705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5ED03702BC4B53100FED1F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +349,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5ED036E2BC4B53100FED1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ED03752BC4B53100FED1F0 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -285,6 +369,11 @@
 			isa = PBXTargetDependency;
 			target = D54A8F4C2BC3608B00516705 /* Hypersonic */;
 			targetProxy = D54A8F692BC3608C00516705 /* PBXContainerItemProxy */;
+		};
+		D5ED03792BC4B53100FED1F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5ED03712BC4B53100FED1F0 /* HyperFinderSync */;
+			targetProxy = D5ED03782BC4B53100FED1F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,6 +510,7 @@
 		D54A8F732BC3608C00516705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
@@ -436,7 +526,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.Hypersonic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,6 +536,7 @@
 		D54A8F742BC3608C00516705 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
@@ -461,7 +552,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.Hypersonic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -536,6 +627,58 @@
 			};
 			name = Release;
 		};
+		D5ED037C2BC4B53100FED1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperFinderSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5ED037D2BC4B53100FED1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperFinderSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +714,15 @@
 			buildConfigurations = (
 				D54A8F792BC3608C00516705 /* Debug */,
 				D54A8F7A2BC3608C00516705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5ED037E2BC4B53100FED1F0 /* Build configuration list for PBXNativeTarget "HyperFinderSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5ED037C2BC4B53100FED1F0 /* Debug */,
+				D5ED037D2BC4B53100FED1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
