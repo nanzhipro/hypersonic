@@ -16,6 +16,8 @@
 		D54A8F6F2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */; };
 		D5ED03752BC4B53100FED1F0 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED03742BC4B53100FED1F0 /* FinderSync.swift */; };
 		D5ED037A2BC4B53100FED1F0 /* HyperFinderSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5ED2EA52BCCA7F500465ABC /* HypersonicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */; };
+		D5ED2EA72BCCA8AA00465ABC /* HerlperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		D5ED03742BC4B53100FED1F0 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
 		D5ED03762BC4B53100FED1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5ED03772BC4B53100FED1F0 /* HyperFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperFinderSync.entitlements; sourceTree = "<group>"; };
+		D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicApp.swift; sourceTree = "<group>"; };
+		D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerlperManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				D54A8F502BC3608B00516705 /* AppDelegate.swift */,
-				D54A8F522BC3608B00516705 /* ViewController.swift */,
 				D54A8F542BC3608C00516705 /* Assets.xcassets */,
-				D54A8F562BC3608C00516705 /* Main.storyboard */,
 				D54A8F592BC3608C00516705 /* Hypersonic.entitlements */,
+				D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */,
+				D54A8F562BC3608C00516705 /* Main.storyboard */,
+				D54A8F522BC3608B00516705 /* ViewController.swift */,
+				D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */,
 			);
 			path = Hypersonic;
 			sourceTree = "<group>";
@@ -327,8 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5ED2EA72BCCA8AA00465ABC /* HerlperManager.swift in Sources */,
 				D54A8F532BC3608B00516705 /* ViewController.swift in Sources */,
 				D54A8F512BC3608B00516705 /* AppDelegate.swift in Sources */,
+				D5ED2EA52BCCA7F500465ABC /* HypersonicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,9 +522,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -528,6 +540,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -540,9 +553,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -554,6 +571,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -631,9 +649,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperFinderSync/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
@@ -647,6 +668,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -657,9 +679,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperFinderSync/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
@@ -673,6 +698,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
