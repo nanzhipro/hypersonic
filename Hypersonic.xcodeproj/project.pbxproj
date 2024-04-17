@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D524A5702BCF44780067DAA8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524A56F2BCF44780067DAA8 /* main.swift */; };
+		D524A5762BCF448C0067DAA8 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = D524A5752BCF448C0067DAA8 /* Blessed */; };
+		D524A5782BCF44A00067DAA8 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = D524A5772BCF44A00067DAA8 /* Blessed */; };
+		D524A57A2BCF44D00067DAA8 /* ScramjetHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = D524A56D2BCF44780067DAA8 /* ScramjetHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D54A8F512BC3608B00516705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F502BC3608B00516705 /* AppDelegate.swift */; };
 		D54A8F532BC3608B00516705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F522BC3608B00516705 /* ViewController.swift */; };
 		D54A8F552BC3608C00516705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54A8F542BC3608C00516705 /* Assets.xcassets */; };
@@ -45,6 +49,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D524A56B2BCF44780067DAA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D524A5792BCF44B30067DAA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				D524A57A2BCF44D00067DAA8 /* ScramjetHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5ED037B2BC4B53100FED1F0 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D524A56D2BCF44780067DAA8 /* ScramjetHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScramjetHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		D524A56F2BCF44780067DAA8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D54A8F4D2BC3608B00516705 /* Hypersonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypersonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54A8F502BC3608B00516705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54A8F522BC3608B00516705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +104,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D524A56A2BCF44780067DAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D524A5762BCF448C0067DAA8 /* Blessed in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D54A8F4A2BC3608B00516705 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D524A5782BCF44A00067DAA8 /* Blessed in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +144,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D524A56E2BCF44780067DAA8 /* ScramjetHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D524A56F2BCF44780067DAA8 /* main.swift */,
+			);
+			path = ScramjetHelper;
+			sourceTree = "<group>";
+		};
+		D524A5742BCF448C0067DAA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D54A8F442BC3608B00516705 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +166,9 @@
 				D54A8F612BC3608C00516705 /* HypersonicTests */,
 				D54A8F6B2BC3608C00516705 /* HypersonicUITests */,
 				D5ED03732BC4B53100FED1F0 /* HyperFinderSync */,
+				D524A56E2BCF44780067DAA8 /* ScramjetHelper */,
 				D54A8F4E2BC3608B00516705 /* Products */,
+				D524A5742BCF448C0067DAA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +179,7 @@
 				D54A8F5E2BC3608C00516705 /* HypersonicTests.xctest */,
 				D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */,
 				D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */,
+				D524A56D2BCF44780067DAA8 /* ScramjetHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +228,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D524A56C2BCF44780067DAA8 /* ScramjetHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D524A5712BCF44780067DAA8 /* Build configuration list for PBXNativeTarget "ScramjetHelper" */;
+			buildPhases = (
+				D524A5692BCF44780067DAA8 /* Sources */,
+				D524A56A2BCF44780067DAA8 /* Frameworks */,
+				D524A56B2BCF44780067DAA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScramjetHelper;
+			packageProductDependencies = (
+				D524A5752BCF448C0067DAA8 /* Blessed */,
+			);
+			productName = ScramjetHelper;
+			productReference = D524A56D2BCF44780067DAA8 /* ScramjetHelper */;
+			productType = "com.apple.product-type.tool";
+		};
 		D54A8F4C2BC3608B00516705 /* Hypersonic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D54A8F722BC3608C00516705 /* Build configuration list for PBXNativeTarget "Hypersonic" */;
@@ -184,6 +256,7 @@
 				D54A8F4A2BC3608B00516705 /* Frameworks */,
 				D54A8F4B2BC3608B00516705 /* Resources */,
 				D5ED037B2BC4B53100FED1F0 /* Embed Foundation Extensions */,
+				D524A5792BCF44B30067DAA8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -191,6 +264,9 @@
 				D5ED03792BC4B53100FED1F0 /* PBXTargetDependency */,
 			);
 			name = Hypersonic;
+			packageProductDependencies = (
+				D524A5772BCF44A00067DAA8 /* Blessed */,
+			);
 			productName = Hypersonic;
 			productReference = D54A8F4D2BC3608B00516705 /* Hypersonic.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +334,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					D524A56C2BCF44780067DAA8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					D54A8F4C2BC3608B00516705 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -283,6 +362,9 @@
 				Base,
 			);
 			mainGroup = D54A8F442BC3608B00516705;
+			packageReferences = (
+				D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */,
+			);
 			productRefGroup = D54A8F4E2BC3608B00516705 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -291,6 +373,7 @@
 				D54A8F5D2BC3608C00516705 /* HypersonicTests */,
 				D54A8F672BC3608C00516705 /* HypersonicUITests */,
 				D5ED03712BC4B53100FED1F0 /* HyperFinderSync */,
+				D524A56C2BCF44780067DAA8 /* ScramjetHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +412,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D524A5692BCF44780067DAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D524A5702BCF44780067DAA8 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D54A8F492BC3608B00516705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +488,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D524A5722BCF44780067DAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D524A5732BCF44780067DAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D54A8F702BC3608C00516705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -708,6 +817,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D524A5712BCF44780067DAA8 /* Build configuration list for PBXNativeTarget "ScramjetHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D524A5722BCF44780067DAA8 /* Debug */,
+				D524A5732BCF44780067DAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D54A8F482BC3608B00516705 /* Build configuration list for PBXProject "Hypersonic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -754,6 +872,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/Blessed.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D524A5752BCF448C0067DAA8 /* Blessed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */;
+			productName = Blessed;
+		};
+		D524A5772BCF44A00067DAA8 /* Blessed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */;
+			productName = Blessed;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D54A8F452BC3608B00516705 /* Project object */;
 }
