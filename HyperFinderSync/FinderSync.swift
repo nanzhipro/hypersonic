@@ -2,7 +2,7 @@
 //  FinderSync.swift
 //  HyperFinderSync
 //
-//  Created by 南朋友 on 2024/4/9.
+//  Created by 南朋友 on 2024/4/22.
 //
 
 import Cocoa
@@ -10,7 +10,7 @@ import FinderSync
 
 class FinderSync: FIFinderSync {
 
-    var myFolderURL = URL(fileURLWithPath: "/Users/nanzhi/Downloads")
+    var myFolderURL = URL(fileURLWithPath: "/Users/Shared/MySyncExtension Documents")
     
     override init() {
         super.init()

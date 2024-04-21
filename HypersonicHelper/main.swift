@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  ScramjetHelper
+//  HypersonicHelper
 //
-//  Created by 南朋友 on 2024/4/17.
+//  Created by 南朋友 on 2024/4/19.
 //
 
 import Foundation

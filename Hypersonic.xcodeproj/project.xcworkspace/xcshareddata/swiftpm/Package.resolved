@@ -1,5 +1,5 @@
 {
-  "originHash" : "73353838c0e58c847af1b3fedf72e7ece2ea4e39e120a599ab5a6540f9cc6794",
+  "originHash" : "79a99f6966f6cfbf2ce5fc5422a9c8ee9e1df95a8f5a97343c17e7167ee08b87",
   "pins" : [
     {
       "identity" : "authorized",
@@ -35,6 +35,15 @@
       "state" : {
         "revision" : "82a4fbd388346ca40b1bbe815014dc45a75d503c",
         "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "securexpc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/trilemma-dev/SecureXPC.git",
+      "state" : {
+        "revision" : "d6e439e2b805de8be9b584fff97cf2f6a839a656",
+        "version" : "0.8.0"
       }
     }
   ],

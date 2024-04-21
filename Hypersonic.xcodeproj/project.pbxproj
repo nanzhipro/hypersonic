@@ -7,24 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D524A5702BCF44780067DAA8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524A56F2BCF44780067DAA8 /* main.swift */; };
-		D524A5762BCF448C0067DAA8 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = D524A5752BCF448C0067DAA8 /* Blessed */; };
 		D524A5782BCF44A00067DAA8 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = D524A5772BCF44A00067DAA8 /* Blessed */; };
-		D524A57A2BCF44D00067DAA8 /* ScramjetHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = D524A56D2BCF44780067DAA8 /* ScramjetHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D52983252BD5D68100A9863A /* Authorized in Frameworks */ = {isa = PBXBuildFile; productRef = D52983242BD5D68100A9863A /* Authorized */; };
+		D52983272BD5D75100A9863A /* Authorized in Frameworks */ = {isa = PBXBuildFile; productRef = D52983262BD5D75100A9863A /* Authorized */; };
+		D529832A2BD5DB1100A9863A /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2822BD1D80D00668D01 /* SharedConstants.swift */; };
+		D529832B2BD5DB1100A9863A /* AllowedCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2732BD1D79E00668D01 /* AllowedCommand.swift */; };
+		D529832C2BD5DB1100A9863A /* CodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2752BD1D79E00668D01 /* CodeInfo.swift */; };
+		D529832D2BD5DB1100A9863A /* HelperToolInfoPropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2742BD1D79E00668D01 /* HelperToolInfoPropertyList.swift */; };
+		D529832E2BD5DB1100A9863A /* HelperToolLaunchdPropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2722BD1D79E00668D01 /* HelperToolLaunchdPropertyList.swift */; };
+		D529832F2BD5DBD200A9863A /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2822BD1D80D00668D01 /* SharedConstants.swift */; };
+		D52983302BD5DBD500A9863A /* AllowedCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2732BD1D79E00668D01 /* AllowedCommand.swift */; };
+		D52983312BD5DBD700A9863A /* HelperToolInfoPropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2742BD1D79E00668D01 /* HelperToolInfoPropertyList.swift */; };
+		D52983322BD5DBD900A9863A /* HelperToolLaunchdPropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2722BD1D79E00668D01 /* HelperToolLaunchdPropertyList.swift */; };
+		D52983342BD5DC2F00A9863A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52983332BD5DC2F00A9863A /* Info.plist */; };
+		D52983352BD5DC6100A9863A /* com.tiwenlab.hypersonic.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = D599E29A2BD1E39300668D01 /* com.tiwenlab.hypersonic.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D529833D2BD5DCB300A9863A /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D529833C2BD5DCB300A9863A /* FinderSync.swift */; };
+		D52983422BD5DCB300A9863A /* HyperFinderSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D529833A2BD5DCB300A9863A /* HyperFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D52983472BD5DCDC00A9863A /* SecureXPC in Frameworks */ = {isa = PBXBuildFile; productRef = D52983462BD5DCDC00A9863A /* SecureXPC */; };
 		D54A8F512BC3608B00516705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F502BC3608B00516705 /* AppDelegate.swift */; };
 		D54A8F532BC3608B00516705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F522BC3608B00516705 /* ViewController.swift */; };
 		D54A8F552BC3608C00516705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54A8F542BC3608C00516705 /* Assets.xcassets */; };
 		D54A8F582BC3608C00516705 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D54A8F572BC3608C00516705 /* Base */; };
 		D54A8F632BC3608C00516705 /* HypersonicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F622BC3608C00516705 /* HypersonicTests.swift */; };
-		D54A8F6D2BC3608C00516705 /* HypersonicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F6C2BC3608C00516705 /* HypersonicUITests.swift */; };
-		D54A8F6F2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */; };
-		D5ED03752BC4B53100FED1F0 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED03742BC4B53100FED1F0 /* FinderSync.swift */; };
-		D5ED037A2BC4B53100FED1F0 /* HyperFinderSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D5ED2EA52BCCA7F500465ABC /* HypersonicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */; };
-		D5ED2EA72BCCA8AA00465ABC /* HerlperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */; };
+		D599E27F2BD1D79E00668D01 /* CodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E2752BD1D79E00668D01 /* CodeInfo.swift */; };
+		D599E2882BD1D85A00668D01 /* SecureXPC in Frameworks */ = {isa = PBXBuildFile; productRef = D599E2872BD1D85A00668D01 /* SecureXPC */; };
+		D599E29D2BD1E39300668D01 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E29C2BD1E39300668D01 /* main.swift */; };
+		D5ADA6252BD5CFC800EE83A7 /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D5ADA6242BD5CFC800EE83A7 /* AppConfig.xcconfig */; };
+		D5ADA62B2BD5D2DC00EE83A7 /* EmbeddedPropertyList in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA62A2BD5D2DC00EE83A7 /* EmbeddedPropertyList */; };
+		D5ADA62E2BD5D2EA00EE83A7 /* Required in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA62D2BD5D2EA00EE83A7 /* Required */; };
+		D5ADA6302BD5D2F700EE83A7 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA62F2BD5D2F700EE83A7 /* Blessed */; };
+		D5ADA6322BD5D2FA00EE83A7 /* SecureXPC in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6312BD5D2FA00EE83A7 /* SecureXPC */; };
+		D5ADA6342BD5D2FF00EE83A7 /* EmbeddedPropertyList in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6332BD5D2FF00EE83A7 /* EmbeddedPropertyList */; };
+		D5ADA6362BD5D30100EE83A7 /* Required in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6352BD5D30100EE83A7 /* Required */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D52983402BD5DCB300A9863A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54A8F452BC3608B00516705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52983392BD5DCB300A9863A;
+			remoteInfo = HyperFinderSync;
+		};
 		D54A8F5F2BC3608C00516705 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D54A8F452BC3608B00516705 /* Project object */;
@@ -32,24 +56,20 @@
 			remoteGlobalIDString = D54A8F4C2BC3608B00516705;
 			remoteInfo = Hypersonic;
 		};
-		D54A8F692BC3608C00516705 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D54A8F452BC3608B00516705 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D54A8F4C2BC3608B00516705;
-			remoteInfo = Hypersonic;
-		};
-		D5ED03782BC4B53100FED1F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D54A8F452BC3608B00516705 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5ED03712BC4B53100FED1F0;
-			remoteInfo = HyperFinderSync;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D524A56B2BCF44780067DAA8 /* CopyFiles */ = {
+		D524A5792BCF44B30067DAA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				D52983352BD5DC6100A9863A /* com.tiwenlab.hypersonic.helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D599E2982BD1E39300668D01 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -58,23 +78,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		D524A5792BCF44B30067DAA8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents/Library/LaunchServices;
-			dstSubfolderSpec = 1;
-			files = (
-				D524A57A2BCF44D00067DAA8 /* ScramjetHelper in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5ED037B2BC4B53100FED1F0 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D5ED037A2BC4B53100FED1F0 /* HyperFinderSync.appex in Embed Foundation Extensions */,
+				D52983422BD5DCB300A9863A /* HyperFinderSync.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +92,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D524A56D2BCF44780067DAA8 /* ScramjetHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScramjetHelper; sourceTree = BUILT_PRODUCTS_DIR; };
-		D524A56F2BCF44780067DAA8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D52983292BD5D86C00A9863A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52983332BD5DC2F00A9863A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D529833A2BD5DCB300A9863A /* HyperFinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HyperFinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D529833C2BD5DCB300A9863A /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		D529833E2BD5DCB300A9863A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D529833F2BD5DCB300A9863A /* HyperFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperFinderSync.entitlements; sourceTree = "<group>"; };
 		D54A8F4D2BC3608B00516705 /* Hypersonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypersonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54A8F502BC3608B00516705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54A8F522BC3608B00516705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,23 +106,25 @@
 		D54A8F592BC3608C00516705 /* Hypersonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hypersonic.entitlements; sourceTree = "<group>"; };
 		D54A8F5E2BC3608C00516705 /* HypersonicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypersonicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54A8F622BC3608C00516705 /* HypersonicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicTests.swift; sourceTree = "<group>"; };
-		D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypersonicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54A8F6C2BC3608C00516705 /* HypersonicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicUITests.swift; sourceTree = "<group>"; };
-		D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HyperFinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5ED03742BC4B53100FED1F0 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
-		D5ED03762BC4B53100FED1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5ED03772BC4B53100FED1F0 /* HyperFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperFinderSync.entitlements; sourceTree = "<group>"; };
-		D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypersonicApp.swift; sourceTree = "<group>"; };
-		D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerlperManager.swift; sourceTree = "<group>"; };
+		D599E2722BD1D79E00668D01 /* HelperToolLaunchdPropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperToolLaunchdPropertyList.swift; sourceTree = "<group>"; };
+		D599E2732BD1D79E00668D01 /* AllowedCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowedCommand.swift; sourceTree = "<group>"; };
+		D599E2742BD1D79E00668D01 /* HelperToolInfoPropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperToolInfoPropertyList.swift; sourceTree = "<group>"; };
+		D599E2752BD1D79E00668D01 /* CodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeInfo.swift; sourceTree = "<group>"; };
+		D599E2822BD1D80D00668D01 /* SharedConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		D599E28D2BD1DA8E00668D01 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D599E28F2BD1DB7B00668D01 /* PropertyListModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListModifier.swift; sourceTree = "<group>"; };
+		D599E29A2BD1E39300668D01 /* com.tiwenlab.hypersonic.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.tiwenlab.hypersonic.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		D599E29C2BD1E39300668D01 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5ADA6242BD5CFC800EE83A7 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HelperToolConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D524A56A2BCF44780067DAA8 /* Frameworks */ = {
+		D52983372BD5DCB300A9863A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D524A5762BCF448C0067DAA8 /* Blessed in Frameworks */,
+				D52983472BD5DCDC00A9863A /* SecureXPC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +132,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52983252BD5D68100A9863A /* Authorized in Frameworks */,
 				D524A5782BCF44A00067DAA8 /* Blessed in Frameworks */,
+				D5ADA62E2BD5D2EA00EE83A7 /* Required in Frameworks */,
+				D599E2882BD1D85A00668D01 /* SecureXPC in Frameworks */,
+				D5ADA62B2BD5D2DC00EE83A7 /* EmbeddedPropertyList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,31 +147,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D54A8F652BC3608C00516705 /* Frameworks */ = {
+		D599E2972BD1E39300668D01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5ED036F2BC4B53100FED1F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D52983272BD5D75100A9863A /* Authorized in Frameworks */,
+				D5ADA6302BD5D2F700EE83A7 /* Blessed in Frameworks */,
+				D5ADA6362BD5D30100EE83A7 /* Required in Frameworks */,
+				D5ADA6322BD5D2FA00EE83A7 /* SecureXPC in Frameworks */,
+				D5ADA6342BD5D2FF00EE83A7 /* EmbeddedPropertyList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D524A56E2BCF44780067DAA8 /* ScramjetHelper */ = {
-			isa = PBXGroup;
-			children = (
-				D524A56F2BCF44780067DAA8 /* main.swift */,
-			);
-			path = ScramjetHelper;
-			sourceTree = "<group>";
-		};
 		D524A5742BCF448C0067DAA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,14 +169,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D529833B2BD5DCB300A9863A /* HyperFinderSync */ = {
+			isa = PBXGroup;
+			children = (
+				D529833C2BD5DCB300A9863A /* FinderSync.swift */,
+				D529833E2BD5DCB300A9863A /* Info.plist */,
+				D529833F2BD5DCB300A9863A /* HyperFinderSync.entitlements */,
+			);
+			path = HyperFinderSync;
+			sourceTree = "<group>";
+		};
+		D52DC3DC2BD094AD005FAE10 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D599E2822BD1D80D00668D01 /* SharedConstants.swift */,
+				D599E2732BD1D79E00668D01 /* AllowedCommand.swift */,
+				D599E2752BD1D79E00668D01 /* CodeInfo.swift */,
+				D599E2742BD1D79E00668D01 /* HelperToolInfoPropertyList.swift */,
+				D599E2722BD1D79E00668D01 /* HelperToolLaunchdPropertyList.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		D54A8F442BC3608B00516705 = {
 			isa = PBXGroup;
 			children = (
+				D599E2902BD1DB7B00668D01 /* BuildScripts */,
+				D599E28D2BD1DA8E00668D01 /* Config.xcconfig */,
+				D52DC3DC2BD094AD005FAE10 /* Shared */,
 				D54A8F4F2BC3608B00516705 /* Hypersonic */,
 				D54A8F612BC3608C00516705 /* HypersonicTests */,
-				D54A8F6B2BC3608C00516705 /* HypersonicUITests */,
-				D5ED03732BC4B53100FED1F0 /* HyperFinderSync */,
-				D524A56E2BCF44780067DAA8 /* ScramjetHelper */,
+				D599E29B2BD1E39300668D01 /* HypersonicHelper */,
+				D529833B2BD5DCB300A9863A /* HyperFinderSync */,
 				D54A8F4E2BC3608B00516705 /* Products */,
 				D524A5742BCF448C0067DAA8 /* Frameworks */,
 			);
@@ -177,9 +211,8 @@
 			children = (
 				D54A8F4D2BC3608B00516705 /* Hypersonic.app */,
 				D54A8F5E2BC3608C00516705 /* HypersonicTests.xctest */,
-				D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */,
-				D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */,
-				D524A56D2BCF44780067DAA8 /* ScramjetHelper */,
+				D599E29A2BD1E39300668D01 /* com.tiwenlab.hypersonic.helper */,
+				D529833A2BD5DCB300A9863A /* HyperFinderSync.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,13 +220,13 @@
 		D54A8F4F2BC3608B00516705 /* Hypersonic */ = {
 			isa = PBXGroup;
 			children = (
+				D52983332BD5DC2F00A9863A /* Info.plist */,
+				D5ADA6242BD5CFC800EE83A7 /* AppConfig.xcconfig */,
 				D54A8F502BC3608B00516705 /* AppDelegate.swift */,
 				D54A8F542BC3608C00516705 /* Assets.xcassets */,
 				D54A8F592BC3608C00516705 /* Hypersonic.entitlements */,
-				D5ED2EA42BCCA7F500465ABC /* HypersonicApp.swift */,
 				D54A8F562BC3608C00516705 /* Main.storyboard */,
 				D54A8F522BC3608B00516705 /* ViewController.swift */,
-				D5ED2EA62BCCA8AA00465ABC /* HerlperManager.swift */,
 			);
 			path = Hypersonic;
 			sourceTree = "<group>";
@@ -206,52 +239,52 @@
 			path = HypersonicTests;
 			sourceTree = "<group>";
 		};
-		D54A8F6B2BC3608C00516705 /* HypersonicUITests */ = {
+		D599E2902BD1DB7B00668D01 /* BuildScripts */ = {
 			isa = PBXGroup;
 			children = (
-				D54A8F6C2BC3608C00516705 /* HypersonicUITests.swift */,
-				D54A8F6E2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift */,
+				D599E28F2BD1DB7B00668D01 /* PropertyListModifier.swift */,
 			);
-			path = HypersonicUITests;
+			path = BuildScripts;
 			sourceTree = "<group>";
 		};
-		D5ED03732BC4B53100FED1F0 /* HyperFinderSync */ = {
+		D599E29B2BD1E39300668D01 /* HypersonicHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D5ED03742BC4B53100FED1F0 /* FinderSync.swift */,
-				D5ED03762BC4B53100FED1F0 /* Info.plist */,
-				D5ED03772BC4B53100FED1F0 /* HyperFinderSync.entitlements */,
+				D52983292BD5D86C00A9863A /* Info.plist */,
+				D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */,
+				D599E29C2BD1E39300668D01 /* main.swift */,
 			);
-			path = HyperFinderSync;
+			path = HypersonicHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D524A56C2BCF44780067DAA8 /* ScramjetHelper */ = {
+		D52983392BD5DCB300A9863A /* HyperFinderSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D524A5712BCF44780067DAA8 /* Build configuration list for PBXNativeTarget "ScramjetHelper" */;
+			buildConfigurationList = D52983432BD5DCB300A9863A /* Build configuration list for PBXNativeTarget "HyperFinderSync" */;
 			buildPhases = (
-				D524A5692BCF44780067DAA8 /* Sources */,
-				D524A56A2BCF44780067DAA8 /* Frameworks */,
-				D524A56B2BCF44780067DAA8 /* CopyFiles */,
+				D52983362BD5DCB300A9863A /* Sources */,
+				D52983372BD5DCB300A9863A /* Frameworks */,
+				D52983382BD5DCB300A9863A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ScramjetHelper;
+			name = HyperFinderSync;
 			packageProductDependencies = (
-				D524A5752BCF448C0067DAA8 /* Blessed */,
+				D52983462BD5DCDC00A9863A /* SecureXPC */,
 			);
-			productName = ScramjetHelper;
-			productReference = D524A56D2BCF44780067DAA8 /* ScramjetHelper */;
-			productType = "com.apple.product-type.tool";
+			productName = HyperFinderSync;
+			productReference = D529833A2BD5DCB300A9863A /* HyperFinderSync.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		D54A8F4C2BC3608B00516705 /* Hypersonic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D54A8F722BC3608C00516705 /* Build configuration list for PBXNativeTarget "Hypersonic" */;
 			buildPhases = (
+				D599E2942BD1DBAA00668D01 /* ShellScript */,
 				D54A8F492BC3608B00516705 /* Sources */,
 				D54A8F4A2BC3608B00516705 /* Frameworks */,
 				D54A8F4B2BC3608B00516705 /* Resources */,
@@ -261,11 +294,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				D5ED03792BC4B53100FED1F0 /* PBXTargetDependency */,
+				D52983412BD5DCB300A9863A /* PBXTargetDependency */,
 			);
 			name = Hypersonic;
 			packageProductDependencies = (
 				D524A5772BCF44A00067DAA8 /* Blessed */,
+				D599E2872BD1D85A00668D01 /* SecureXPC */,
+				D5ADA62A2BD5D2DC00EE83A7 /* EmbeddedPropertyList */,
+				D5ADA62D2BD5D2EA00EE83A7 /* Required */,
+				D52983242BD5D68100A9863A /* Authorized */,
 			);
 			productName = Hypersonic;
 			productReference = D54A8F4D2BC3608B00516705 /* Hypersonic.app */;
@@ -289,40 +326,30 @@
 			productReference = D54A8F5E2BC3608C00516705 /* HypersonicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D54A8F672BC3608C00516705 /* HypersonicUITests */ = {
+		D599E2992BD1E39300668D01 /* HypersonicHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D54A8F782BC3608C00516705 /* Build configuration list for PBXNativeTarget "HypersonicUITests" */;
+			buildConfigurationList = D599E29E2BD1E39300668D01 /* Build configuration list for PBXNativeTarget "HypersonicHelper" */;
 			buildPhases = (
-				D54A8F642BC3608C00516705 /* Sources */,
-				D54A8F652BC3608C00516705 /* Frameworks */,
-				D54A8F662BC3608C00516705 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D54A8F6A2BC3608C00516705 /* PBXTargetDependency */,
-			);
-			name = HypersonicUITests;
-			productName = HypersonicUITests;
-			productReference = D54A8F682BC3608C00516705 /* HypersonicUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		D5ED03712BC4B53100FED1F0 /* HyperFinderSync */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5ED037E2BC4B53100FED1F0 /* Build configuration list for PBXNativeTarget "HyperFinderSync" */;
-			buildPhases = (
-				D5ED036E2BC4B53100FED1F0 /* Sources */,
-				D5ED036F2BC4B53100FED1F0 /* Frameworks */,
-				D5ED03702BC4B53100FED1F0 /* Resources */,
+				D52983282BD5D79000A9863A /* ShellScript */,
+				D599E2962BD1E39300668D01 /* Sources */,
+				D599E2972BD1E39300668D01 /* Frameworks */,
+				D599E2982BD1E39300668D01 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HyperFinderSync;
-			productName = HyperFinderSync;
-			productReference = D5ED03722BC4B53100FED1F0 /* HyperFinderSync.appex */;
-			productType = "com.apple.product-type.app-extension";
+			name = HypersonicHelper;
+			packageProductDependencies = (
+				D5ADA62F2BD5D2F700EE83A7 /* Blessed */,
+				D5ADA6312BD5D2FA00EE83A7 /* SecureXPC */,
+				D5ADA6332BD5D2FF00EE83A7 /* EmbeddedPropertyList */,
+				D5ADA6352BD5D30100EE83A7 /* Required */,
+				D52983262BD5D75100A9863A /* Authorized */,
+			);
+			productName = HypersonicHelper;
+			productReference = D599E29A2BD1E39300668D01 /* com.tiwenlab.hypersonic.helper */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -334,7 +361,7 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					D524A56C2BCF44780067DAA8 = {
+					D52983392BD5DCB300A9863A = {
 						CreatedOnToolsVersion = 15.3;
 					};
 					D54A8F4C2BC3608B00516705 = {
@@ -344,11 +371,7 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = D54A8F4C2BC3608B00516705;
 					};
-					D54A8F672BC3608C00516705 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = D54A8F4C2BC3608B00516705;
-					};
-					D5ED03712BC4B53100FED1F0 = {
+					D599E2992BD1E39300668D01 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -364,6 +387,10 @@
 			mainGroup = D54A8F442BC3608B00516705;
 			packageReferences = (
 				D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */,
+				D599E2862BD1D82800668D01 /* XCRemoteSwiftPackageReference "SecureXPC" */,
+				D5ADA6292BD5D2DC00EE83A7 /* XCRemoteSwiftPackageReference "EmbeddedPropertyList" */,
+				D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */,
+				D52983232BD5D68100A9863A /* XCRemoteSwiftPackageReference "Authorized" */,
 			);
 			productRefGroup = D54A8F4E2BC3608B00516705 /* Products */;
 			projectDirPath = "";
@@ -371,19 +398,27 @@
 			targets = (
 				D54A8F4C2BC3608B00516705 /* Hypersonic */,
 				D54A8F5D2BC3608C00516705 /* HypersonicTests */,
-				D54A8F672BC3608C00516705 /* HypersonicUITests */,
-				D5ED03712BC4B53100FED1F0 /* HyperFinderSync */,
-				D524A56C2BCF44780067DAA8 /* ScramjetHelper */,
+				D599E2992BD1E39300668D01 /* HypersonicHelper */,
+				D52983392BD5DCB300A9863A /* HyperFinderSync */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D52983382BD5DCB300A9863A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D54A8F4B2BC3608B00516705 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52983342BD5DC2F00A9863A /* Info.plist in Resources */,
 				D54A8F552BC3608C00516705 /* Assets.xcassets in Resources */,
+				D5ADA6252BD5CFC800EE83A7 /* AppConfig.xcconfig in Resources */,
 				D54A8F582BC3608C00516705 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,28 +430,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D54A8F662BC3608C00516705 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5ED03702BC4B53100FED1F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D52983282BD5D79000A9863A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}\"/BuildScripts/PropertyListModifier.swift satisfy-job-bless-requirements specify-mach-services auto-increment-version\n";
+		};
+		D599E2942BD1DBAA00668D01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}\"/BuildScripts/PropertyListModifier.swift satisfy-job-bless-requirements\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D524A5692BCF44780067DAA8 /* Sources */ = {
+		D52983362BD5DCB300A9863A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D524A5702BCF44780067DAA8 /* main.swift in Sources */,
+				D529833D2BD5DCB300A9863A /* FinderSync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +482,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5ED2EA72BCCA8AA00465ABC /* HerlperManager.swift in Sources */,
+				D52983322BD5DBD900A9863A /* HelperToolLaunchdPropertyList.swift in Sources */,
+				D52983312BD5DBD700A9863A /* HelperToolInfoPropertyList.swift in Sources */,
+				D52983302BD5DBD500A9863A /* AllowedCommand.swift in Sources */,
+				D529832F2BD5DBD200A9863A /* SharedConstants.swift in Sources */,
+				D599E27F2BD1D79E00668D01 /* CodeInfo.swift in Sources */,
 				D54A8F532BC3608B00516705 /* ViewController.swift in Sources */,
 				D54A8F512BC3608B00516705 /* AppDelegate.swift in Sources */,
-				D5ED2EA52BCCA7F500465ABC /* HypersonicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,40 +500,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D54A8F642BC3608C00516705 /* Sources */ = {
+		D599E2962BD1E39300668D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54A8F6F2BC3608C00516705 /* HypersonicUITestsLaunchTests.swift in Sources */,
-				D54A8F6D2BC3608C00516705 /* HypersonicUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5ED036E2BC4B53100FED1F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5ED03752BC4B53100FED1F0 /* FinderSync.swift in Sources */,
+				D529832A2BD5DB1100A9863A /* SharedConstants.swift in Sources */,
+				D529832B2BD5DB1100A9863A /* AllowedCommand.swift in Sources */,
+				D529832C2BD5DB1100A9863A /* CodeInfo.swift in Sources */,
+				D529832D2BD5DB1100A9863A /* HelperToolInfoPropertyList.swift in Sources */,
+				D529832E2BD5DB1100A9863A /* HelperToolLaunchdPropertyList.swift in Sources */,
+				D599E29D2BD1E39300668D01 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D52983412BD5DCB300A9863A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52983392BD5DCB300A9863A /* HyperFinderSync */;
+			targetProxy = D52983402BD5DCB300A9863A /* PBXContainerItemProxy */;
+		};
 		D54A8F602BC3608C00516705 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D54A8F4C2BC3608B00516705 /* Hypersonic */;
 			targetProxy = D54A8F5F2BC3608C00516705 /* PBXContainerItemProxy */;
-		};
-		D54A8F6A2BC3608C00516705 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D54A8F4C2BC3608B00516705 /* Hypersonic */;
-			targetProxy = D54A8F692BC3608C00516705 /* PBXContainerItemProxy */;
-		};
-		D5ED03792BC4B53100FED1F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D5ED03712BC4B53100FED1F0 /* HyperFinderSync */;
-			targetProxy = D5ED03782BC4B53100FED1F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -488,26 +540,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D524A5722BCF44780067DAA8 /* Debug */ = {
+		D52983442BD5DCB300A9863A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperFinderSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.HyperFinderSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		D524A5732BCF44780067DAA8 /* Release */ = {
+		D52983452BD5DCB300A9863A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperFinderSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.HyperFinderSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		D54A8F702BC3608C00516705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D599E28D2BD1DA8E00668D01 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -559,7 +654,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -571,6 +666,7 @@
 		};
 		D54A8F712BC3608C00516705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D599E28D2BD1DA8E00668D01 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -616,7 +712,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -626,6 +722,7 @@
 		};
 		D54A8F732BC3608C00516705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5ADA6242BD5CFC800EE83A7 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -633,11 +730,12 @@
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "APP=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -646,10 +744,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APP;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -657,6 +757,7 @@
 		};
 		D54A8F742BC3608C00516705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5ADA6242BD5CFC800EE83A7 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -664,11 +765,12 @@
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "APP=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -677,10 +779,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APP;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -722,94 +826,28 @@
 			};
 			name = Release;
 		};
-		D54A8F792BC3608C00516705 /* Debug */ = {
+		D599E29F2BD1E39300668D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.HypersonicUITests;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Hypersonic;
-			};
-			name = Debug;
-		};
-		D54A8F7A2BC3608C00516705 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.HypersonicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Hypersonic;
-			};
-			name = Release;
-		};
-		D5ED037C2BC4B53100FED1F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HyperFinderSync/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
-				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		D5ED037D2BC4B53100FED1F0 /* Release */ = {
+		D599E2A02BD1E39300668D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = YSM8K853CQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HyperFinderSync/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HyperFinderSync;
-				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic.findersync;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YSM8K853CQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -817,11 +855,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D524A5712BCF44780067DAA8 /* Build configuration list for PBXNativeTarget "ScramjetHelper" */ = {
+		D52983432BD5DCB300A9863A /* Build configuration list for PBXNativeTarget "HyperFinderSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D524A5722BCF44780067DAA8 /* Debug */,
-				D524A5732BCF44780067DAA8 /* Release */,
+				D52983442BD5DCB300A9863A /* Debug */,
+				D52983452BD5DCB300A9863A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -853,20 +891,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D54A8F782BC3608C00516705 /* Build configuration list for PBXNativeTarget "HypersonicUITests" */ = {
+		D599E29E2BD1E39300668D01 /* Build configuration list for PBXNativeTarget "HypersonicHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D54A8F792BC3608C00516705 /* Debug */,
-				D54A8F7A2BC3608C00516705 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5ED037E2BC4B53100FED1F0 /* Build configuration list for PBXNativeTarget "HyperFinderSync" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5ED037C2BC4B53100FED1F0 /* Debug */,
-				D5ED037D2BC4B53100FED1F0 /* Release */,
+				D599E29F2BD1E39300668D01 /* Debug */,
+				D599E2A02BD1E39300668D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -882,18 +911,95 @@
 				minimumVersion = 0.6.0;
 			};
 		};
+		D52983232BD5D68100A9863A /* XCRemoteSwiftPackageReference "Authorized" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/Authorized.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D599E2862BD1D82800668D01 /* XCRemoteSwiftPackageReference "SecureXPC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/SecureXPC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+		D5ADA6292BD5D2DC00EE83A7 /* XCRemoteSwiftPackageReference "EmbeddedPropertyList" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/EmbeddedPropertyList.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/Required.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D524A5752BCF448C0067DAA8 /* Blessed */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */;
-			productName = Blessed;
-		};
 		D524A5772BCF44A00067DAA8 /* Blessed */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */;
 			productName = Blessed;
+		};
+		D52983242BD5D68100A9863A /* Authorized */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D52983232BD5D68100A9863A /* XCRemoteSwiftPackageReference "Authorized" */;
+			productName = Authorized;
+		};
+		D52983262BD5D75100A9863A /* Authorized */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D52983232BD5D68100A9863A /* XCRemoteSwiftPackageReference "Authorized" */;
+			productName = Authorized;
+		};
+		D52983462BD5DCDC00A9863A /* SecureXPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D599E2862BD1D82800668D01 /* XCRemoteSwiftPackageReference "SecureXPC" */;
+			productName = SecureXPC;
+		};
+		D599E2872BD1D85A00668D01 /* SecureXPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D599E2862BD1D82800668D01 /* XCRemoteSwiftPackageReference "SecureXPC" */;
+			productName = SecureXPC;
+		};
+		D5ADA62A2BD5D2DC00EE83A7 /* EmbeddedPropertyList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5ADA6292BD5D2DC00EE83A7 /* XCRemoteSwiftPackageReference "EmbeddedPropertyList" */;
+			productName = EmbeddedPropertyList;
+		};
+		D5ADA62D2BD5D2EA00EE83A7 /* Required */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */;
+			productName = Required;
+		};
+		D5ADA62F2BD5D2F700EE83A7 /* Blessed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D524A5682BCF42940067DAA8 /* XCRemoteSwiftPackageReference "Blessed" */;
+			productName = Blessed;
+		};
+		D5ADA6312BD5D2FA00EE83A7 /* SecureXPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D599E2862BD1D82800668D01 /* XCRemoteSwiftPackageReference "SecureXPC" */;
+			productName = SecureXPC;
+		};
+		D5ADA6332BD5D2FF00EE83A7 /* EmbeddedPropertyList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5ADA6292BD5D2DC00EE83A7 /* XCRemoteSwiftPackageReference "EmbeddedPropertyList" */;
+			productName = EmbeddedPropertyList;
+		};
+		D5ADA6352BD5D30100EE83A7 /* Required */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */;
+			productName = Required;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
