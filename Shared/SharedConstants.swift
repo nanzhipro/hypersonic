@@ -24,7 +24,7 @@ struct SharedConstants {
     // MARK: True constants
     
     /// Authorization right used to force user to authenticate as admin before performing an action.
-    static let exampleRight = AuthorizationRight(name: "com.example.SwiftAuthorizationSample.secure-action")
+    static let exampleRight = AuthorizationRight(name: "com.com.tiwenlab.hypersonic.secure-action")
     /// XPC route to run an allowed command as root.
     static let allowedCommandRoute = XPCRoute.named("process")
                                              .withMessageType(AllowedCommandMessage.self)

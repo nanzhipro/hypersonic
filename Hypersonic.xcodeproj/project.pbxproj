@@ -39,6 +39,8 @@
 		D5ADA6322BD5D2FA00EE83A7 /* SecureXPC in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6312BD5D2FA00EE83A7 /* SecureXPC */; };
 		D5ADA6342BD5D2FF00EE83A7 /* EmbeddedPropertyList in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6332BD5D2FF00EE83A7 /* EmbeddedPropertyList */; };
 		D5ADA6362BD5D30100EE83A7 /* Required in Frameworks */ = {isa = PBXBuildFile; productRef = D5ADA6352BD5D30100EE83A7 /* Required */; };
+		D5D3EEA82BD721BD003DA355 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5D3EEA72BD721BD003DA355 /* CocoaLumberjackSwift */; };
+		D5D3EEAA2BD721C5003DA355 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5D3EEA92BD721C5003DA355 /* CocoaLumberjackSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +136,7 @@
 			files = (
 				D52983252BD5D68100A9863A /* Authorized in Frameworks */,
 				D524A5782BCF44A00067DAA8 /* Blessed in Frameworks */,
+				D5D3EEA82BD721BD003DA355 /* CocoaLumberjackSwift in Frameworks */,
 				D5ADA62E2BD5D2EA00EE83A7 /* Required in Frameworks */,
 				D599E2882BD1D85A00668D01 /* SecureXPC in Frameworks */,
 				D5ADA62B2BD5D2DC00EE83A7 /* EmbeddedPropertyList in Frameworks */,
@@ -153,6 +156,7 @@
 			files = (
 				D52983272BD5D75100A9863A /* Authorized in Frameworks */,
 				D5ADA6302BD5D2F700EE83A7 /* Blessed in Frameworks */,
+				D5D3EEAA2BD721C5003DA355 /* CocoaLumberjackSwift in Frameworks */,
 				D5ADA6362BD5D30100EE83A7 /* Required in Frameworks */,
 				D5ADA6322BD5D2FA00EE83A7 /* SecureXPC in Frameworks */,
 				D5ADA6342BD5D2FF00EE83A7 /* EmbeddedPropertyList in Frameworks */,
@@ -303,6 +307,7 @@
 				D5ADA62A2BD5D2DC00EE83A7 /* EmbeddedPropertyList */,
 				D5ADA62D2BD5D2EA00EE83A7 /* Required */,
 				D52983242BD5D68100A9863A /* Authorized */,
+				D5D3EEA72BD721BD003DA355 /* CocoaLumberjackSwift */,
 			);
 			productName = Hypersonic;
 			productReference = D54A8F4D2BC3608B00516705 /* Hypersonic.app */;
@@ -346,6 +351,7 @@
 				D5ADA6332BD5D2FF00EE83A7 /* EmbeddedPropertyList */,
 				D5ADA6352BD5D30100EE83A7 /* Required */,
 				D52983262BD5D75100A9863A /* Authorized */,
+				D5D3EEA92BD721C5003DA355 /* CocoaLumberjackSwift */,
 			);
 			productName = HypersonicHelper;
 			productReference = D599E29A2BD1E39300668D01 /* com.tiwenlab.hypersonic.helper */;
@@ -391,6 +397,7 @@
 				D5ADA6292BD5D2DC00EE83A7 /* XCRemoteSwiftPackageReference "EmbeddedPropertyList" */,
 				D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */,
 				D52983232BD5D68100A9863A /* XCRemoteSwiftPackageReference "Authorized" */,
+				D5D3EEA62BD72198003DA355 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 			);
 			productRefGroup = D54A8F4E2BC3608B00516705 /* Products */;
 			projectDirPath = "";
@@ -544,7 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -574,7 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = HyperFinderSync/HyperFinderSync.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -728,11 +735,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = YSM8K853CQ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "APP=1";
@@ -745,7 +752,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -763,11 +770,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hypersonic/Hypersonic.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = YSM8K853CQ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "APP=1";
@@ -780,7 +787,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenlab.hypersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -830,6 +837,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSM8K853CQ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -843,6 +852,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5ADA6262BD5D06100EE83A7 /* HelperToolConfig.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSM8K853CQ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -943,6 +954,14 @@
 				minimumVersion = 0.1.1;
 			};
 		};
+		D5D3EEA62BD72198003DA355 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1000,6 +1019,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D5ADA62C2BD5D2EA00EE83A7 /* XCRemoteSwiftPackageReference "Required" */;
 			productName = Required;
+		};
+		D5D3EEA72BD721BD003DA355 /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5D3EEA62BD72198003DA355 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		D5D3EEA92BD721C5003DA355 /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5D3EEA62BD72198003DA355 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

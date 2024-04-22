@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildHash</key>
-	<string>20b42a97e54ff34fffa69d9fac0de8a8f43ad73783ac3187111dad5e821a9063</string>
+	<string>a8e52e5efb393309b977d59d7e707550797a34a34c4e2278e3d2f8319f572ca2</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.tiwenlab.hypersonic.helper</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>SMAuthorizedClients</key>
 	<array>
 		<string>anchor apple generic and identifier "com.tiwenlab.hypersonic" and info[CFBundleVersion] &gt;= "1.0.0" and certificate leaf[subject.OU] = "YSM8K853CQ"</string>
