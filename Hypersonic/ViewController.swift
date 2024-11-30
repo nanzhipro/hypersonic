@@ -21,7 +21,7 @@ class ViewController: NSViewController {
 
     func setupLogging() {
         // 创建日志目录
-        let fileManager = FileManager.default
+        let fileManager: FileManager = FileManager.default
         let directoryPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         let logsDirectory = directoryPaths[0] + "/Logs"
         if !fileManager.fileExists(atPath: logsDirectory) {
